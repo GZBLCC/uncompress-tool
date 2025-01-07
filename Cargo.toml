@@ -1,0 +1,13 @@
+[package]
+name = "unzip-tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zip = "0.6"
+flate2 = "1.0"
+tar = "0.4"
+egui = "0.24"
+eframe = { version = "0.24.1", features = ["persistence"] }
+rfd = "0.11"
+winapi = { version = "0.3", features = ["winuser", "windef"] }
